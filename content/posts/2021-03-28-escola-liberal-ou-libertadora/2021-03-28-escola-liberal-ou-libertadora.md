@@ -1,8 +1,8 @@
 ---
 draft: false
-resources: []
+resources: [Educação, Software Livre, Cultura Livre]
 title: Escola liberal ou libertadora? O uso de software livre para desenvolvimento da cidadania
-pubdate: now
+pubdate: 2021-03-28 
 cover:
     image: "https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg?crop=entropy&cs=srgb&dl=pexels-august-de-richelieu-4260482.jpg&fit=crop&fm=jpg&h=427&w=640"
     # can also paste direct link from external site
