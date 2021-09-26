@@ -19,7 +19,7 @@ params:
     keywords: [Blog, Educação, Clura Livre, História]
     author: Ramon Mulin
     # author: ["Me", "You"] # multiple authors
-    images: ["https://i.pinimg.com/736x/bc/39/bc/bc39bc7b135e5e7277aa7fc69f6aae36--supply-chain-blog-design.jpg"]
+    images: ["https://archive.org/download/favicon_educadorlivre/favicon.webp"]
     DateFormat: "January 2, 2006"
     defaultTheme: dark 
     disableThemeToggle: false
@@ -40,16 +40,16 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "https://i.pinimg.com/736x/bc/39/bc/bc39bc7b135e5e7277aa7fc69f6aae36--supply-chain-blog-design.jpg"
-        favicon16x16: "https://i.pinimg.com/736x/bc/39/bc/bc39bc7b135e5e7277aa7fc69f6aae36--supply-chain-blog-design.jpg"
-        favicon32x32: "https://i.pinimg.com/736x/bc/39/bc/bc39bc7b135e5e7277aa7fc69f6aae36--supply-chain-blog-design.jpg"
-        apple_touch_icon: "https://i.pinimg.com/736x/bc/39/bc/bc39bc7b135e5e7277aa7fc69f6aae36--supply-chain-blog-design.jpg"
-        safari_pinned_tab: "https://i.pinimg.com/736x/bc/39/bc/bc39bc7b135e5e7277aa7fc69f6aae36--supply-chain-blog-design.jpg"
+        favicon: "https://archive.org/download/favicon_educadorlivre/favicon.webp"
+        favicon16x16: "https://archive.org/download/favicon_educadorlivre/favicon.webp"
+        favicon32x32: "https://archive.org/download/favicon_educadorlivre/favicon.webp"
+        apple_touch_icon: "https://archive.org/download/favicon_educadorlivre/favicon.webp"
+        safari_pinned_tab: "https://archive.org/download/favicon_educadorlivre/favicon.webp"
 
     label:
         text: "Blog do Mulin - Educador Livre"
-        icon: "https://i.pinimg.com/736x/bc/39/bc/bc39bc7b135e5e7277aa7fc69f6aae36--supply-chain-blog-design.jpg"
-        iconHeight: 35
+        icon: "https://archive.org/download/logo_educadorlivre/logo.webp"
+        iconHeight: 100
 
     # profile-mode
     profileMode:
