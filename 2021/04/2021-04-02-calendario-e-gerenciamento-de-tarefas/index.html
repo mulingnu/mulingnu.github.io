@@ -1,0 +1,232 @@
+<!doctype html><html lang=pt-br>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="noodp">
+<title class=pjax-title>Software livre de gerenciamento de tarefas e calendário com sincronização entre GNU/Linux e Android - Blog do Mulin</title><meta name=Description content="Como ter um calendário e aplicativo de organização pessoal com softwares livres"><meta property="og:title" content="Software livre de gerenciamento de tarefas e calendário com sincronização entre GNU/Linux e Android">
+<meta property="og:description" content="Como ter um calendário e aplicativo de organização pessoal com softwares livres">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://hugodoit.pages.dev/2021/04/2021-04-02-calendario-e-gerenciamento-de-tarefas/"><meta property="og:image" content="https://archive.org/download/logo_educadorlivre/logo.webp"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2021-04-02T21:29:01-03:00">
+<meta property="article:modified_time" content="2021-04-02T21:29:01-03:00"><meta property="og:site_name" content="Blog do Mulin - Educador Livre">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://archive.org/download/logo_educadorlivre/logo.webp">
+<meta name=twitter:title content="Software livre de gerenciamento de tarefas e calendário com sincronização entre GNU/Linux e Android">
+<meta name=twitter:description content="Como ter um calendário e aplicativo de organização pessoal com softwares livres">
+<meta name=application-name content="Blog do Mulin">
+<meta name=apple-mobile-web-app-title content="Blog do Mulin">
+<meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel=icon href=https://archive.org/download/favicon_educadorlivre/favicon.webp><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://hugodoit.pages.dev/2021/04/2021-04-02-calendario-e-gerenciamento-de-tarefas/><link rel=prev href=https://hugodoit.pages.dev/2021/03/escola-liberal-ou-libertadora/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=preload as=style onload="this.onload=null,this.rel='stylesheet'" href=/lib/fontawesome-free/all.min.css>
+<noscript><link rel=stylesheet href=/lib/fontawesome-free/all.min.css></noscript><link rel=preload as=style onload="this.onload=null,this.rel='stylesheet'" href=/lib/animate/animate.min.css>
+<noscript><link rel=stylesheet href=/lib/animate/animate.min.css></noscript><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Software livre de gerenciamento de tarefas e calendário com sincronização entre GNU/Linux e Android","inLanguage":"pt-BR","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/hugodoit.pages.dev\/2021\/04\/2021-04-02-calendario-e-gerenciamento-de-tarefas\/"},"image":["https:\/\/archive.org\/download\/logo_educadorlivre\/logo.webp"],"genre":"posts","keywords":"software livre, calendário, android, GNU","wordcount":552,"url":"https:\/\/hugodoit.pages.dev\/2021\/04\/2021-04-02-calendario-e-gerenciamento-de-tarefas\/","datePublished":"2021-04-02T21:29:01-03:00","dateModified":"2021-04-02T21:29:01-03:00","license":"Este trabalho está licenciado sob a Creative Commons Attribution-ShareAlike 4.0 International.","publisher":{"@type":"Organization","name":"Blog do Mulin - Educador Livre","logo":"https:\/\/archive.org\/download\/logo_educadorlivre\/logo.webp"},"author":{"@type":"Person","name":"Ramon Mulin"},"description":"Como ter um calendário e aplicativo de organização pessoal com softwares livres"}</script></head>
+<body header-desktop=fixed header-mobile=auto><script type=text/javascript>function setTheme(a){document.body.setAttribute('theme',a)}function saveTheme(a){window.localStorage&&localStorage.setItem('theme',a)}function getMeta(b){const a=document.getElementsByTagName('meta');for(let c=0;c<a.length;c++)if(a[c].getAttribute('name')===b)return a[c];return''}if(window.localStorage&&localStorage.getItem('theme')){let a=localStorage.getItem('theme');a==='light'||a==='dark'||a==='black'?setTheme(a):window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?setTheme('dark'):setTheme('light')}else'dark'==='light'||'dark'==='dark'||'dark'==='black'?(setTheme('dark'),saveTheme('dark')):(saveTheme('auto'),window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?setTheme('dark'):setTheme('light'));let themeColorMeta=getMeta('theme-color');document.body.getAttribute('theme')!='light'&&(themeColorMeta.content='#000000')</script>
+<div id=back-to-top></div>
+<div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/ title="Blog do Mulin"><img class="lazyload logo" data-src=https://archive.org/download/logo_educadorlivre/logo.webp data-srcset="https://archive.org/download/logo_educadorlivre/logo.webp, https://archive.org/download/logo_educadorlivre/logo.webp 1.5x, https://archive.org/download/logo_educadorlivre/logo.webp 2x" data-sizes=auto alt=https://archive.org/download/logo_educadorlivre/logo.webp title=https://archive.org/download/logo_educadorlivre/logo.webp>Educador Livre</a>
+</div>
+<div class=menu>
+<div class=menu-inner><a class=menu-item href=/posts/> Postagens </a><a class=menu-item href=/tags/> Etiquetas </a><a class=menu-item href=/categories/> Categorias </a><a class=menu-item href=/about/> Sobre </a><a class=menu-item href=https://github.com/mulingnu/mulingnu.github.io title=GitHub rel="noopener noreffer" target=_blank><i class="fab fa-github fa-fw"></i> </a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
+<input type=text placeholder="Pesquisar títulos ou conteúdos ..." id=search-input-desktop>
+<a href=# onclick=return!1 class="search-button search-toggle" id=search-toggle-desktop title=Pesquisa>
+<i class="fas fa-search fa-fw"></i>
+</a>
+<a href=# onclick=return!1 class="search-button search-clear" id=search-clear-desktop title=Limpar>
+<i class="fas fa-times-circle fa-fw"></i>
+</a>
+<span class="search-button search-loading" id=search-loading-desktop>
+<i class="fas fa-spinner fa-fw fa-spin"></i>
+</span>
+</span><a href=# onclick=return!1 class="menu-item theme-select" title="Trocar tema">
+<i class="fas fa-adjust fa-fw"></i>
+<select class=color-theme-select id=theme-select-desktop title="Trocar tema"><option value=light>Light</option><option value=dark>Dark</option><option value=black>Black</option><option value=auto>Auto</option></select>
+</a></div>
+</div>
+</div>
+</header><header class=mobile id=header-mobile>
+<div class=header-container>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/ title="Blog do Mulin"><img class="lazyload logo" data-src=https://archive.org/download/logo_educadorlivre/logo.webp data-srcset="https://archive.org/download/logo_educadorlivre/logo.webp, https://archive.org/download/logo_educadorlivre/logo.webp 1.5x, https://archive.org/download/logo_educadorlivre/logo.webp 2x" data-sizes=auto alt=https://archive.org/download/logo_educadorlivre/logo.webp title=https://archive.org/download/logo_educadorlivre/logo.webp>Educador Livre</a>
+</div>
+<div class=menu-toggle id=menu-toggle-mobile>
+<span></span><span></span><span></span>
+</div>
+</div>
+<div class=menu id=menu-mobile><div class=search-wrapper>
+<div class="search mobile" id=search-mobile>
+<input type=text placeholder="Pesquisar títulos ou conteúdos ..." id=search-input-mobile>
+<a href=# onclick=return!1 class="search-button search-toggle" id=search-toggle-mobile title=Pesquisa>
+<i class="fas fa-search fa-fw"></i>
+</a>
+<a href=# onclick=return!1 class="search-button search-clear" id=search-clear-mobile title=Limpar>
+<i class="fas fa-times-circle fa-fw"></i>
+</a>
+<span class="search-button search-loading" id=search-loading-mobile>
+<i class="fas fa-spinner fa-fw fa-spin"></i>
+</span>
+</div>
+<a href=# onclick=return!1 class=search-cancel id=search-cancel-mobile>
+Cancelar
+</a>
+</div><a class=menu-item href=/posts/ title>Postagens</a><a class=menu-item href=/tags/ title>Etiquetas</a><a class=menu-item href=/categories/ title>Categorias</a><a class=menu-item href=/about/ title>Sobre</a><a class=menu-item href=https://github.com/mulingnu/mulingnu.github.io title=GitHub rel="noopener noreffer" target=_blank><i class="fab fa-github fa-fw"></i></a><a href=# onclick=return!1 class="menu-item theme-select" title="Trocar tema">
+<i class="fas fa-adjust fa-fw"></i>
+<select class=color-theme-select id=theme-select-mobile title="Trocar tema"><option value=light>Light</option><option value=dark>Dark</option><option value=black>Black</option><option value=auto>Auto</option></select>
+</a></div>
+</div>
+</header>
+<div class="search-dropdown desktop">
+<div id=search-dropdown-desktop></div>
+</div>
+<div class="search-dropdown mobile">
+<div id=search-dropdown-mobile></div>
+</div>
+<main class=main>
+<div class=container><div class=toc id=toc-auto>
+<h2 class=toc-title>Conteúdos</h2>
+<div class="toc-content always-active" id=toc-content-auto></div>
+</div><script>document.getElementsByTagName("main")[0].setAttribute("pageStyle","wide")</script><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC","true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Software livre de gerenciamento de tarefas e calendário com sincronização entre GNU/Linux e Android</h1><div class=post-meta>
+<div class=post-meta-line>
+<span class=post-author><i class="author fas fa-user-circle fa-fw"></i><a href=https://venera.social/profile/mulin/profile title=Author target=_blank rel="noopener noreffer author" class=author>Ramon Mulin</a>
+</span>&nbsp;<span class=post-category>incluído </span>&nbsp;<span class=post-category>na categoria <a href=/categories/categoria/><i class="far fa-folder fa-fw"></i>categoria</a></span></div>
+<div class=post-meta-line><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=02/04/2021>02/04/2021</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime=02/04/2021>02/04/2021</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;552 palavras&nbsp;
+<i class="far fa-clock fa-fw"></i>&nbsp;3 minutos&nbsp;</div>
+</div><div class=featured-image><img class=lazyload data-src="https://images.pexels.com/photos/1425099/pexels-photo-1425099.jpeg?crop=entropy&cs=srgb&dl=pexels-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D0%B0%D1%80-%D1%86%D0%B2%D0%B5%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%9B-1425099.jpg&fit=crop&fm=jpg&h=853&w=1280" data-srcset="https://images.pexels.com/photos/1425099/pexels-photo-1425099.jpeg?crop=entropy&cs=srgb&dl=pexels-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D0%B0%D1%80-%D1%86%D0%B2%D0%B5%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%9B-1425099.jpg&fit=crop&fm=jpg&h=853&w=1280, https://images.pexels.com/photos/1425099/pexels-photo-1425099.jpeg?crop=entropy&cs=srgb&dl=pexels-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D0%B0%D1%80-%D1%86%D0%B2%D0%B5%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%9B-1425099.jpg&fit=crop&fm=jpg&h=853&w=1280 1.5x, https://images.pexels.com/photos/1425099/pexels-photo-1425099.jpeg?crop=entropy&cs=srgb&dl=pexels-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D0%B0%D1%80-%D1%86%D0%B2%D0%B5%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%9B-1425099.jpg&fit=crop&fm=jpg&h=853&w=1280 2x" data-sizes=auto alt="https://images.pexels.com/photos/1425099/pexels-photo-1425099.jpeg?crop=entropy&cs=srgb&dl=pexels-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D0%B0%D1%80-%D1%86%D0%B2%D0%B5%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%9B-1425099.jpg&fit=crop&fm=jpg&h=853&w=1280" title="Como ter um calendário e aplicativo de organização pessoal com softwares livres" height=auto width=auto></div><div class="details toc" id=toc-static kept>
+<div class="details-summary toc-title">
+<span>Conteúdos</span>
+<span><i class="details-icon fas fa-angle-right"></i></span>
+</div>
+<div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents>
+<ul>
+<li><a href=#introdução>Introdução</a></li>
+<li><a href=#registrando-uma-conta-no-disroot-e-acessando-o-calendário>Registrando uma conta no Disroot e acessando o calendário</a></li>
+<li><a href=#sincronizando-o-calendário-no-android>Sincronizando o calendário no Android</a></li>
+</ul>
+</nav></div>
+</div><div class=content id=content><h2 id=introdução>Introdução</h2>
+<p>Os calendários digitais tornaram-se uma ferramenta essencial na vida de professores e profissionais que precisam da união entre organização e praticidade. Muito mais práticos que os tradicionais calendários de papel, oferecem sincronia entre computadores e dispositivos mobile. Infelizmente essas ferramentas de organização cotidiana também foram dominadas pelos softwares privativos, não respeitando as <a href=https://www.gnu.org/philosophy/free-sw.pt-br.html target=_blank>liberdades essenciais</a> do usuário. O <em>Google Calendar</em> é, possivelmente, a ferramenta mais utilizada, visto que vem instalado por padrão nos aparelhos Android com Google e também sincroniza com computadores. Todavia, existem ferramentas livres que, ao serem configuradas, oferecem o mesmo resultado sem que tenhamos nossa privacidade invadida e dados pessoais coletados por essas empresas.</p>
+<p>Hoje falaremos sobre o serviço <a href=https://disroot.org/en target=_blank>Disroot</a> e veremos como sincronizar o calendário com seu celular Android. Apesar do Disroot oferecer diversos serviços em sua plataforma, nessa postagem trataremos especificamente do calendário e deixaremos as outras ferramentas para postagens futuras. Lembrando que este texto visa celulares com “Android puro” (sem serviços e aplicações do <em>Google</em>) e com o catálogo de softwares livres <a href=https://www.f-droid.org/ target=_blank>F-Droid</a> instalado.</p>
+<hr>
+<h2 id=registrando-uma-conta-no-disroot-e-acessando-o-calendário>Registrando uma conta no Disroot e acessando o calendário</h2>
+<ol>
+<li>
+<p>Acesse o site do Disroot através do endereço <strong><a href=https://disroot.org/ target=_blank><a href=https://disroot.org/ target=_blank rel="noopener noreffer">https://disroot.org/</a></a></strong>;</br></p>
+</li>
+<li>
+<p>Acesse o menu superior <strong>Services</strong> e clique em <strong><a href=https://disroot.org/en/services/nextcloud target=_blank>Cloud</a></strong>;</p>
+</li>
+</ol>
+<p><img class=lazyload data-src=https://archive.org/download/3_20210927_20210927/1.webp data-srcset="https://archive.org/download/3_20210927_20210927/1.webp, https://archive.org/download/3_20210927_20210927/1.webp 1.5x, https://archive.org/download/3_20210927_20210927/1.webp 2x" data-sizes=auto alt=https://archive.org/download/3_20210927_20210927/1.webp title=https://archive.org/download/3_20210927_20210927/1.webp></br></br></p>
+<ol start=3>
+<li>Na próxima página, clique em <strong><a href=https://user.disroot.org/pwm/public/newuser target=_blank>Sign up for Disroot</a></strong>;</li>
+</ol>
+<p><img class=lazyload data-src=https://archive.org/download/3_20210927_20210927/2.webp data-srcset="https://archive.org/download/3_20210927_20210927/2.webp, https://archive.org/download/3_20210927_20210927/2.webp 1.5x, https://archive.org/download/3_20210927_20210927/2.webp 2x" data-sizes=auto alt=https://archive.org/download/3_20210927_20210927/2.webp title=https://archive.org/download/3_20210927_20210927/2.webp></br></br></p>
+<ol start=4>
+<li>Você terá acesso a um formulário de inscrição. Ao responder e enviar o formulário, a equipe do Disroot pede um prazo de 48 horas para que sua conta seja criada, todavia, geralmente autorizam antes;</li>
+</ol>
+<p><img class=lazyload data-src=https://archive.org/download/3_20210927_20210927/3.webp data-srcset="https://archive.org/download/3_20210927_20210927/3.webp, https://archive.org/download/3_20210927_20210927/3.webp 1.5x, https://archive.org/download/3_20210927_20210927/3.webp 2x" data-sizes=auto alt=https://archive.org/download/3_20210927_20210927/3.webp title=https://archive.org/download/3_20210927_20210927/3.webp></br></br></p>
+<ol start=5>
+<li>Quando sua conta for autorizada, entre com suas credenciais (usuário e senha) no site normalmente. A primeira tela que aparecerá será a do seu painel principal. Clique no ícone do calendário para ter acesso à ferramenta;</li>
+</ol>
+<p><img class=lazyload data-src=https://archive.org/download/3_20210927_20210927/4.webp data-srcset="https://archive.org/download/3_20210927_20210927/4.webp, https://archive.org/download/3_20210927_20210927/4.webp 1.5x, https://archive.org/download/3_20210927_20210927/4.webp 2x" data-sizes=auto alt=https://archive.org/download/3_20210927_20210927/4.webp title=https://archive.org/download/3_20210927_20210927/4.webp></br></br></p>
+<ol start=6>
+<li>Com o calendário aberto, adicione uma tarefa qualquer a ele para efetuar os testes no celular. No meu caso coloquei uma chamada &ldquo;<em>Escrever artigo para o blog</em>&rdquo; no dia 3 de março;</li>
+</ol>
+<p><img class=lazyload data-src=https://archive.org/download/3_20210927_20210927/5.webp data-srcset="https://archive.org/download/3_20210927_20210927/5.webp, https://archive.org/download/3_20210927_20210927/5.webp 1.5x, https://archive.org/download/3_20210927_20210927/5.webp 2x" data-sizes=auto alt=https://archive.org/download/3_20210927_20210927/5.webp title=https://archive.org/download/3_20210927_20210927/5.webp></p>
+<ol start=7>
+<li>Dessa forma, finalizamos a construção de nossa conta com calendário no computador. O próximo passo será sincronizá-lo com o celular.</li>
+</ol>
+</br>
+<h2 id=sincronizando-o-calendário-no-android>Sincronizando o calendário no Android</h2>
+<ol>
+<li>Acesse o F-droid e procure pelo aplicativo <strong><a href=https://f-droid.org/en/packages/at.bitfire.davdroid/ target=_blank>DAVx⁵</a></strong> e clique em Instalar;</li>
+</ol>
+<p><img src=https://archive.org/download/3_20210927_20210927/6.webp width=40%></br></br></p>
+<ol start=2>
+<li>Quando o F-Droid perguntar se deseja realmente instalar, clique em <strong>Instalar</strong>;</li>
+</ol>
+<p><img src=https://archive.org/download/3_20210927_20210927/7.webp width=40%></br></br></p>
+<ol start=3>
+<li>Após instalado, abra o <strong>DAVx⁵</strong> e clique no “+” para adicionar uma conta;</li>
+</ol>
+<p><img src=https://archive.org/download/3_20210927_20210927/8.webp width=40%></br></br></p>
+<ol start=4>
+<li>Na tela seguinte, clique em <strong>Autenticar com usuário e URL</strong>. No campo <strong>URL base</strong> escreva <em>cloud.disrootorg</em>, e nos campos <strong>Usuário</strong> e <strong>Senha</strong> coloque suas credenciais do Disroot;</li>
+</ol>
+<p><img src=https://archive.org/download/3_20210927_20210927/9.webp width=40%></br></br></p>
+<ol start=5>
+<li>Aguarde a detecção de configuração. Logo depois, clique em <strong>Criar Conta</strong>;</li>
+</ol>
+<p><img src=https://archive.org/download/3_20210927_20210927/10.webp width=40%></br></br></p>
+<ol start=6>
+<li>Na tela seguinte clique em <strong>CALDAV</strong> para ter acesso aos calendários de sua conta do Disroot;</li>
+</ol>
+<p><img src=https://archive.org/download/3_20210927_20210927/11.webp width=40%></br></br></p>
+<ol start=7>
+<li>O programa solicitará autorizações em seguida. Conceda-as para conseguir sincronizar o serviço;</li>
+</ol>
+<p><img src=https://archive.org/download/3_20210927_20210927/12.webp width=40%></br></br></p>
+<ol start=8>
+<li>Acesse o menu de configurações da sua conta;</li>
+</ol>
+<p><img src=https://archive.org/download/3_20210927_20210927/13.webp width=40%></br></br></p>
+<ol start=9>
+<li>Clique em Intervalo de sincronização de calendários;</li>
+</ol>
+<p><img src=https://archive.org/download/3_20210927_20210927/14.webp width=40%></br></br></p>
+<ol start=10>
+<li>Escolha o intervalo de tempo que você deseja que o <strong>DAVx⁵</strong> sincronize o calendário do celular com o calendário do <strong>Disroot</strong>. Eu coloco 15 minutos para que ele sempre permaneça sincronizado, mas você pode personalizar de acordo com suas necessidades;</li>
+</ol>
+<p><img src=https://archive.org/download/3_20210927_20210927/15.webp width=40%></br></br></p>
+<ol start=11>
+<li>Agora você pode sincronizar o calendário desejado e fechar o <strong>DAVx⁵</strong>. Em seguida, abra o aplicativo de calendário padrão de seu Android;</li>
+</ol>
+<p><img src=https://archive.org/download/3_20210927_20210927/16.webp width=40%></br></br></p>
+<ol start=12>
+<li>Note que a tarefa que eu havia acrescentado no computador pelo Disroot, também aparece no calendário do celular.</li>
+</ol>
+<img src=https://archive.org/download/3_20210927_20210927/17.webp width=40%>
+</br>
+<img src=https://archive.org/download/3_20210927_20210927/18.webp width=40%>
+<hr>
+<p>Espero que esse pequeno tutorial tenha te ajudado a se tornar um pouco mais LIVRE!</p>
+<p>Abraços!</p>
+<p text align=right>Foto de <b><a href="https://www.pexels.com/pt-br/@lemonzandtea?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target=_blank>Александар Цветановић</a></b> no <b><a href="https://www.pexels.com/pt-br/foto/calendario-de-mesa-de-bloco-de-madeira-marrom-exibindo-13-de-setembro-1425099/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target=_blank>Pexels</p></b>
+</div><div class=post-footer id=post-footer>
+<div class=post-info>
+<div class=post-info-line>
+<div class=post-info-mod>
+<span>Atualizado em 02/04/2021</span>
+</div>
+<div class=post-info-license></div>
+</div>
+<div class=post-info-line>
+<div class=post-info-md><span>
+<a class=link-to-markdown href=/2021/04/2021-04-02-calendario-e-gerenciamento-de-tarefas/index.md target=_blank rel="noopener noreferrer">Leia em Markdown</a>
+</span></div>
+<div class=post-info-share>
+<span></span>
+</div>
+</div>
+</div>
+<div class=post-info-more>
+<section class=post-tags><i class="fas fa-tags fa-fw"></i>&nbsp;<a href=/tags/software-livre/>software livre</a>,&nbsp;<a href=/tags/calend%C3%A1rio/>calendário</a>,&nbsp;<a href=/tags/android/>android</a>,&nbsp;<a href=/tags/gnu/>GNU</a></section>
+<section>
+<span><a href=# onclick=window.history.back()>Voltar</a></span>&nbsp;|&nbsp;<span><a href=/>Home</a></span>
+</section>
+</div>
+<div class=post-nav><a href=/2021/03/escola-liberal-ou-libertadora/ class=prev rel=prev title="Escola liberal ou libertadora? O uso de software livre para desenvolvimento da cidadania"><i class="fas fa-angle-left fa-fw"></i>Escola liberal ou libertadora? O uso de software livre para desenvolvimento da cidadania</a></div>
+</div>
+<div id=comments></div></article></div>
+</main><footer class=footer>
+<div class=footer-container><div class=footer-line>Este site é livre de rastreadores!</div><div class=footer-line><i class="far fa-copyright fa-fw"></i><span itemprop=copyrightYear>2021</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=https://venera.social/profile/mulin/profile target=_blank rel="noopener noreferrer">Ramon Mulin</a></span>&nbsp;|&nbsp;<span class=license><a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-sa/4.0/ target=_blank>CC BY-SA 4.0</a></span></div>
+</div><script>'serviceWorker'in navigator&&(navigator.serviceWorker.register('/sw.min.js',{scope:'/'}).then(function(a){}),navigator.serviceWorker.ready.then(function(a){}))</script></footer></div>
+<div id=fixed-buttons><a href=#back-to-top id=back-to-top-button class=fixed-button title="Voltar ao topo">
+<i class="fas fa-arrow-up fa-fw"></i>
+</a><a href=# id=view-comments class=fixed-button title="Ver comentários">
+<i class="fas fa-comment fa-fw"></i>
+</a>
+</div><div class=assets><script type=text/javascript src=/lib/autocomplete/autocomplete.min.js></script><script type=text/javascript src=/lib/lunr/lunr.min.js></script><script type=text/javascript src=/lib/lunr/lunr.stemmer.support.min.js></script><script type=text/javascript src=/lib/lunr/lunr.pt.min.js></script><script type=text/javascript src=/lib/lazysizes/lazysizes.min.js></script><script type=text/javascript src=/lib/topbar/topbar.min.js></script><script type=text/javascript src=/lib/pjax/pjax.min.js></script><script type=text/javascript src=/js/theme.min.js></script></div>
+<div class=pjax-assets><script type=text/javascript src=/lib/clipboard/clipboard.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"Copiar para a área de transferência",maxShownLines:10},comment:{},search:{highlightTag:"em",lunrIndexURL:"/index.json",lunrLanguageCode:"pt",maxResultLength:10,noResultsFound:"Nenhum resultado encontrado",snippetLength:30,type:"lunr"}}</script></div>
+</body>
+</html>

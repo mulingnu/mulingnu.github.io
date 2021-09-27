@@ -1,4 +1,95 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>software livre - Tag - Blog do Mulin</title><link>https://hugodoit.pages.dev/tags/software-livre/</link><description>software livre - Tag - Blog do Mulin</description><generator>Hugo -- gohugo.io</generator><language>pt-BR</language><managingEditor>mulin@disroot.org (Ramon Mulin)</managingEditor><webMaster>mulin@disroot.org (Ramon Mulin)</webMaster><copyright>Este trabalho está licenciado sob a Creative Commons Attribution-ShareAlike 4.0 International.</copyright><lastBuildDate>Sun, 28 Mar 2021 21:29:01 -0300</lastBuildDate><atom:link href="https://hugodoit.pages.dev/tags/software-livre/" rel="self" type="application/rss+xml"/><item><title>Escola liberal ou libertadora? O uso de software livre para desenvolvimento da cidadania</title><link>https://hugodoit.pages.dev/2021/03/escola-liberal-ou-libertadora/</link><pubDate>Sun, 28 Mar 2021 21:29:01 -0300</pubDate><author><name>Ramon Mulin</name></author><guid>https://hugodoit.pages.dev/2021/03/escola-liberal-ou-libertadora/</guid><description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>software livre - Tag - Blog do Mulin</title><link>https://hugodoit.pages.dev/tags/software-livre/</link><description>software livre - Tag - Blog do Mulin</description><generator>Hugo -- gohugo.io</generator><language>pt-BR</language><managingEditor>mulin@disroot.org (Ramon Mulin)</managingEditor><webMaster>mulin@disroot.org (Ramon Mulin)</webMaster><copyright>Este trabalho está licenciado sob a Creative Commons Attribution-ShareAlike 4.0 International.</copyright><lastBuildDate>Fri, 02 Apr 2021 21:29:01 -0300</lastBuildDate><atom:link href="https://hugodoit.pages.dev/tags/software-livre/" rel="self" type="application/rss+xml"/><item><title>Software livre de gerenciamento de tarefas e calendário com sincronização entre GNU/Linux e Android</title><link>https://hugodoit.pages.dev/2021/04/2021-04-02-calendario-e-gerenciamento-de-tarefas/</link><pubDate>Fri, 02 Apr 2021 21:29:01 -0300</pubDate><author><name>Ramon Mulin</name></author><guid>https://hugodoit.pages.dev/2021/04/2021-04-02-calendario-e-gerenciamento-de-tarefas/</guid><description><![CDATA[<div class="featured-image">
+                <img src="https://images.pexels.com/photos/1425099/pexels-photo-1425099.jpeg?crop=entropy&amp;cs=srgb&amp;dl=pexels-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D0%B0%D1%80-%D1%86%D0%B2%D0%B5%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%9B-1425099.jpg&amp;fit=crop&amp;fm=jpg&amp;h=853&amp;w=1280" referrerpolicy="no-referrer">
+            </div><h2 id="introdução">Introdução</h2>
+<p>Os calendários digitais tornaram-se uma ferramenta essencial na vida de professores e profissionais que precisam da união entre organização e praticidade. Muito mais práticos que os tradicionais calendários de papel, oferecem sincronia entre computadores e dispositivos mobile. Infelizmente essas ferramentas de organização cotidiana também foram dominadas pelos softwares privativos, não respeitando as <a href="https://www.gnu.org/philosophy/free-sw.pt-br.html" target=_blank>liberdades essenciais</a> do usuário. O <em>Google Calendar</em> é, possivelmente, a ferramenta mais utilizada, visto que vem instalado por padrão nos aparelhos Android  com Google e também sincroniza com computadores. Todavia, existem ferramentas livres que, ao serem configuradas, oferecem o mesmo resultado sem que tenhamos nossa privacidade invadida e dados pessoais coletados por essas empresas.</p>
+<p>Hoje falaremos sobre o serviço <a href="https://disroot.org/en" target=_blank>Disroot</a> e veremos como sincronizar o calendário com seu celular Android. Apesar do Disroot oferecer diversos serviços em sua plataforma, nessa postagem trataremos especificamente do calendário e deixaremos as outras ferramentas para postagens futuras. Lembrando que este texto visa celulares com “Android puro” (sem serviços e aplicações do <em>Google</em>) e com o catálogo de softwares livres <a href="https://www.f-droid.org/" target=_blank>F-Droid</a> instalado.</p>
+<hr>
+<h2 id="registrando-uma-conta-no-disroot-e-acessando-o-calendário">Registrando uma conta no Disroot e acessando o calendário</h2>
+<ol>
+<li>
+<p>Acesse o site do Disroot através do endereço <strong><a href="https://disroot.org/" target=_blank><a href="https://disroot.org/" target="_blank" rel="noopener noreffer">https://disroot.org/</a></a></strong>;</br></p>
+</li>
+<li>
+<p>Acesse o menu superior <strong>Services</strong> e clique em <strong><a href="https://disroot.org/en/services/nextcloud" target=_blank>Cloud</a></strong>;</p>
+</li>
+</ol>
+<p></br></br></p>
+<ol start="3">
+<li>Na próxima página, clique em <strong><a href="https://user.disroot.org/pwm/public/newuser" target=_blank>Sign up for Disroot</a></strong>;</li>
+</ol>
+<p></br></br></p>
+<ol start="4">
+<li>Você terá acesso a um formulário de inscrição. Ao responder e enviar o formulário, a equipe do Disroot pede um prazo de 48 horas para que sua conta seja criada, todavia, geralmente autorizam antes;</li>
+</ol>
+<p></br></br></p>
+<ol start="5">
+<li>Quando sua conta for autorizada, entre com suas credenciais (usuário e senha) no site normalmente. A primeira tela que aparecerá será a do seu painel principal. Clique no ícone do calendário para ter acesso à ferramenta;</li>
+</ol>
+<p></br></br></p>
+<ol start="6">
+<li>Com o calendário aberto, adicione uma tarefa qualquer a ele para efetuar os testes no celular. No meu caso coloquei uma chamada &ldquo;<em>Escrever artigo para o blog</em>&rdquo; no dia 3 de março;</li>
+</ol>
+<p></p>
+<ol start="7">
+<li>Dessa forma, finalizamos a construção de nossa conta com calendário no computador. O próximo passo será sincronizá-lo com o celular.</li>
+</ol>
+</br>
+<h2 id="sincronizando-o-calendário-no-android">Sincronizando o calendário no Android</h2>
+<ol>
+<li>Acesse o F-droid e procure pelo aplicativo <strong><a href="https://f-droid.org/en/packages/at.bitfire.davdroid/" target=_blank>DAVx⁵</a></strong> e clique em Instalar;</li>
+</ol>
+<p></br></br></p>
+<ol start="2">
+<li>Quando o F-Droid perguntar se deseja realmente instalar, clique em <strong>Instalar</strong>;</li>
+</ol>
+<p></br></br></p>
+<ol start="3">
+<li>Após instalado, abra o <strong>DAVx⁵</strong> e clique no “+” para adicionar uma conta;</li>
+</ol>
+<p></br></br></p>
+<ol start="4">
+<li>Na tela seguinte, clique em <strong>Autenticar com usuário e URL</strong>. No campo <strong>URL base</strong> escreva <em>cloud.disrootorg</em>, e nos campos <strong>Usuário</strong> e <strong>Senha</strong> coloque suas credenciais do Disroot;</li>
+</ol>
+<p></br></br></p>
+<ol start="5">
+<li>Aguarde a detecção de configuração. Logo depois, clique em <strong>Criar Conta</strong>;</li>
+</ol>
+<p></br></br></p>
+<ol start="6">
+<li>Na tela seguinte clique em <strong>CALDAV</strong> para ter acesso aos calendários de sua conta do Disroot;</li>
+</ol>
+<p></br></br></p>
+<ol start="7">
+<li>O programa solicitará autorizações em seguida. Conceda-as para conseguir sincronizar o serviço;</li>
+</ol>
+<p></br></br></p>
+<ol start="8">
+<li>Acesse o menu de configurações da sua conta;</li>
+</ol>
+<p></br></br></p>
+<ol start="9">
+<li>Clique em Intervalo de sincronização de calendários;</li>
+</ol>
+<p></br></br></p>
+<ol start="10">
+<li>Escolha o intervalo de tempo que você deseja que o <strong>DAVx⁵</strong> sincronize o calendário do celular com o calendário do <strong>Disroot</strong>. Eu coloco 15 minutos para que ele sempre permaneça sincronizado, mas você pode personalizar de acordo com suas necessidades;</li>
+</ol>
+<p></br></br></p>
+<ol start="11">
+<li>Agora você pode sincronizar o calendário desejado e fechar o <strong>DAVx⁵</strong>. Em seguida, abra o aplicativo de calendário padrão de seu Android;</li>
+</ol>
+<p></br></br></p>
+<ol start="12">
+<li>Note que a tarefa que eu havia acrescentado no computador pelo Disroot, também aparece no calendário do celular.</li>
+</ol>
+
+</br>
+
+<hr>
+<p>Espero que esse pequeno tutorial tenha te ajudado a se tornar um pouco mais LIVRE!</p>
+<p>Abraços!</p>
+<p text align = right>Foto de <b><a href="https://www.pexels.com/pt-br/@lemonzandtea?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target=_blank>Александар Цветановић</a></b> no <b><a href="https://www.pexels.com/pt-br/foto/calendario-de-mesa-de-bloco-de-madeira-marrom-exibindo-13-de-setembro-1425099/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target=_blank>Pexels</p></b>
+]]></description></item><item><title>Escola liberal ou libertadora? O uso de software livre para desenvolvimento da cidadania</title><link>https://hugodoit.pages.dev/2021/03/escola-liberal-ou-libertadora/</link><pubDate>Sun, 28 Mar 2021 21:29:01 -0300</pubDate><author><name>Ramon Mulin</name></author><guid>https://hugodoit.pages.dev/2021/03/escola-liberal-ou-libertadora/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg?crop=entropy&amp;cs=srgb&amp;dl=pexels-august-de-richelieu-4260482.jpg&amp;fit=crop&amp;fm=jpg&amp;h=854&amp;w=1280" referrerpolicy="no-referrer">
             </div><p>Nunca foi tão necessário o uso de dispositivos como desktops, notebooks, celulares, tablets e outros para que o processo de ensino-aprendizagem ocorra. No Brasil isso se torna um problema, dada a grande desigualdade social de nosso país, impossibilitando esse acesso às camadas mais pobres da sociedade, seja por não terem dispositivos ou por falta de acesso à internet. E, mesmo que o aluno e o professor tenham esse acesso, ficam à mercê de uma lógica de poder no que diz respeito aos softwares utilizados. Softwares com licenças proprietárias que não respeitam as liberdades do usuário, no caso, os atores envolvidos em um processo de educação que deveria ser libertadora.</p>
 <p>A metodologia freiriana e sua base ideológica vislumbram a educação como um ato libertador, no qual os indivíduos se tornam agentes de sua própria transformação e da sociedade em que vive. Uma transformação que só é possível quando o indivíduo desenvolve uma compreensão concreta de sua realidade e do mundo que o rodeia. Essa educação só é possível quando o homem se desvencilha de amarras sociais e estruturas de poder que são um fator de opressão. Dessa forma, a educação libertadora se dá de forma horizontal, através do diálogo e da ação, fora de um ambiente hierárquico e opressor. Essa metodologia tem como objetivo principal o desenvolvimento da cidadania.</p>
