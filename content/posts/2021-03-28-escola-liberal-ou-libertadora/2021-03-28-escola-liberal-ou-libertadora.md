@@ -1,18 +1,21 @@
 ---
+title: "Escola liberal ou libertadora? O uso de software livre para desenvolvimento da cidadania"
+date: 2021-03-28T21:29:01-03:00
+# lastmod: 2020-03-06T21:29:01+08:00
 draft: false
-resources: [Educação, Software Livre, Cultura Livre]
-title: Escola liberal ou libertadora? O uso de software livre para desenvolvimento da cidadania
-pubdate: 2021-03-28 
-cover:
-    image: "https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg?crop=entropy&cs=srgb&dl=pexels-august-de-richelieu-4260482.jpg&fit=crop&fm=jpg&h=427&w=640"
-    # can also paste direct link from external site
-    # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-    alt: "<alt text>"
-    caption: "<text>"
-    relative: false # To use relative path for cover image, used in hugo Page-bundles
----
+# authors: ["Dillon", "PCloud"]
+description: "O uso de softwares livres em escolas para promoção de uma Educação Libertadora."
+featuredImage: "https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg?crop=entropy&cs=srgb&dl=pexels-august-de-richelieu-4260482.jpg&fit=crop&fm=jpg&h=427&w=640"
 
-![Foto de August de Richelieu do Pexels](https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg?crop=entropy&cs=srgb&dl=pexels-august-de-richelieu-4260482.jpg&fit=crop&fm=jpg&h=427&w=640)
+tags: ["educação", "software livre", "cultura livre"]
+categories: ["Ensaios"]
+# series: ["getting-start"]
+
+lightgallery: true
+
+toc:
+  auto: false
+---
 
 # Escola liberal ou libertadora? O uso de software livre para desenvolvimento da cidadania
 
