@@ -5,7 +5,7 @@ date: 2021-03-28T21:29:01-03:00
 draft: false
 # authors: ["Dillon", "PCloud"]
 description: "O uso de softwares livres em escolas para promoção de uma Educação Libertadora."
-featuredImage: "https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg?crop=entropy&cs=srgb&dl=pexels-august-de-richelieu-4260482.jpg&fit=crop&fm=jpg&h=427&w=640"
+featuredImage: "https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg?crop=entropy&cs=srgb&dl=pexels-august-de-richelieu-4260482.jpg&fit=crop&fm=jpg&h=854&w=1280"
 
 tags: ["educação", "software livre", "cultura livre"]
 categories: ["Ensaios"]
@@ -38,6 +38,6 @@ Essas liberdades permitem que comunidades de pessoas façam constantes modifica�
 
 Com a utilização de softwares livres, os sujeitos inseridos no contexto educacional têm domínio sobre os dispositivo e ferramentas que utilizam durante o processo de ensino-aprendizagem, fazendo com que o aluno seja empoderado no âmbito da tecnologia. Além de poder colaborar horizontalmente nas comunidades de softwares livres, a fim de aprender e ensinar, ele é agente na construção dessa realidade, fazendo com que, dessa forma, a educação seja libertadora ultrapasse os limites da sala de aula. Nesse sentido, o aluno desenvolve visão crítica acerca dos ambientes (virtuais ou físicos) que o rodeiam. O uso de software livre liberta o aluno e o profissional da educação da dependência do mercado e dos interesses privados, colaborando, assim, para uma educação cada vez mais cidadã e libertadora.
 
-**Ramon Mulin**
+**<p align="right">Ramon Mulin</p>**
 
-Foto de [August de Richelieu](https://www.pexels.com/@august-de-richelieu?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels "August de Richelieu") do [Pexels](https://www.pexels.com/photo/mother-helping-her-daughter-with-her-homework-4260482/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels "Pexels")
+<p align="right">Foto de <a href="https://www.pexels.com/@august-de-richelieu?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">August de Richelieu</a> do <a href="https://www.pexels.com/photo/mother-helping-her-daughter-with-her-homework-4260482/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">Pexels</a></p>
