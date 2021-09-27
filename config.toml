@@ -719,14 +719,14 @@ copyright = "Este trabalho está licenciado sob a Creative Commons Attribution-S
     Devto = ""
     Gitea = ""
     XMPP = "mulin@suchat.org"
-    Matrix = "https://matrix.to/#/@mulin:matrix.org"
+    Matrix = "@mulin:matrix.org"
     Bilibili = ""
     ORCID = ""
     Liberapay = ""
     Ko-Fi = ""
     BuyMeACoffee = ""
     Linktree = ""
-    Email = "mailto:mulin@disroot.org"
+    Email = "mulin@disroot.org"
     RSS = true
     [params.social.Mastodon]
       id = "profile/mulin/profile"
