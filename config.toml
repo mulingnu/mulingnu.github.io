@@ -15,13 +15,13 @@ title = "Blog do Mulin"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
-enableRobotsTXT = true
+enableRobotsTXT = false
 # whether to use git commit log
 # 是否使用 git 信息
 enableGitInfo = false
 # whether to use emoji code
 # 是否使用 emoji 代码
-enableEmoji = true
+enableEmoji = false
 
 # weight = 1
 # language code
@@ -35,7 +35,7 @@ paginate = 10
 # [UA-XXXXXXXX-X] google analytics code
 googleAnalytics = ""
 # copyright description used only for seo schema
-copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+copyright = "Este trabalho está licenciado sob a Creative Commons Attribution-ShareAlike 4.0 International."
 # Menu config
 [menu]
   [[menu.main]]
@@ -102,7 +102,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
     pre = "<i class='fab fa-github fa-fw'></i>"
     post = ""
     name = ""
-    url = "https://github.com/"
+    url = "https://github.com/mulingnu/mulingnu.github.io"
     title = "GitHub"
     weight = 8
 
@@ -155,7 +155,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
       logo = "https://archive.org/download/logo_educadorlivre/logo.webp"
       # title name
       # 标题名称
-      name = "Blog do Mulin - Educador Livre"
+      name = "Educador Livre"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       # pre = "<i class='far fa-edit fa-fw'></i>"
@@ -173,13 +173,13 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    custom = ''
+    custom = 'Este site é livre de rastreadores!'
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
-    hugo = false
+    hugo = true
     # whether to show copyright info
     # 是否显示版权信息
-    copyright = false
+    copyright = true
     # whether to show the author
     # 是否显示作者
     author = true
@@ -395,14 +395,14 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
       # Waline comment config (https://waline.js.org)
       # Waline 评论系统设置 (https://waline.js.org)
       [params.page.comment.waline]
-        enable = false
+        enable = true
         serverURL = "https://doit-docs-comment.vercel.app/"
         placeholder = "Just Go Go."
         wordLimit = 0
         avatar = "mp"
         meta = ["nick", "mail", "link"]
         pageSize = 10
-        lang = "en"
+        lang = "pt-br"
         visitor = true
         highlight = true
         avatarCDN = ""
@@ -410,7 +410,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
         emojiCDN = ""
         emojiMaps = ""
         requiredFields = []
-        anonymous = false
+        anonymous = true
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       # Facebook 评论系统设置 (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
@@ -642,13 +642,13 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "https://archive.org/download/logo_educadorlivre/logo.webp"
+      avatarURL = ""
       # title shown in home page (HTML format is supported)
       title = "Blog do Mulin"
       # subtitle shown in home page
       subtitle = "Educação e Cultura Livre"
       # whether to use typeit animation for subtitle
-      typeit = true
+      typeit = false
       # whether to show social links
       social = true
       # disclaimer (HTML format is supported)
@@ -718,7 +718,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
     Thingiverse = ""
     Devto = ""
     Gitea = ""
-    XMPP = ""
+    XMPP = "mulin@suchat.org"
     Matrix = ""
     Bilibili = ""
     ORCID = ""
@@ -726,10 +726,10 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
     Ko-Fi = ""
     BuyMeACoffee = ""
     Linktree = ""
-    Email = ""
+    Email = "mailto:mulin@disroot.org"
     RSS = true
     [params.social.Mastodon]
-      id = "@mulin"
+      id = "profile/mulin/profile"
       prefix = "https://venera.social/"
 
 
@@ -772,7 +772,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 [author]
   name = "Ramon Mulin"
   email = "mulin@disroot.org"
-  link = ""
+  link = "https://venera.social/profile/mulin/profile"
 
 # Sitemap config
 # 网站地图配置
