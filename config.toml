@@ -637,7 +637,7 @@ copyright = "Este trabalho está licenciado sob a Creative Commons Attribution-S
       # whether to show social links
       social = true
       # disclaimer (HTML format is supported)
-      disclaimer = ""
+      disclaimer = "Todas as publicações são livres e estão licenciadas sob a Creative Commons Attribution-ShareAlike 4.0 International.</br><a href='https://creativecommons.org/licenses/by-sa/4.0/' target=_blank><img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/1280px-CC-BY-SA_icon.svg.png' width = 10% /></a>"
     # Home page posts
     [params.home.posts]
       enable = true
