@@ -1,8 +1,6 @@
 # Escola liberal ou libertadora? O uso de software livre para desenvolvimento da cidadania
 
 
-# Escola liberal ou libertadora? O uso de software livre para desenvolvimento da cidadania
-
 Nunca foi tão necessário o uso de dispositivos como desktops, notebooks, celulares, tablets e outros para que o processo de ensino-aprendizagem ocorra. No Brasil isso se torna um problema, dada a grande desigualdade social de nosso país, impossibilitando esse acesso às camadas mais pobres da sociedade, seja por não terem dispositivos ou por falta de acesso à internet. E, mesmo que o aluno e o professor tenham esse acesso, ficam à mercê de uma lógica de poder no que diz respeito aos softwares utilizados. Softwares com licenças proprietárias que não respeitam as liberdades do usuário, no caso, os atores envolvidos em um processo de educação que deveria ser libertadora.
 
 A metodologia freiriana e sua base ideológica vislumbram a educação como um ato libertador, no qual os indivíduos se tornam agentes de sua própria transformação e da sociedade em que vive. Uma transformação que só é possível quando o indivíduo desenvolve uma compreensão concreta de sua realidade e do mundo que o rodeia. Essa educação só é possível quando o homem se desvencilha de amarras sociais e estruturas de poder que são um fator de opressão. Dessa forma, a educação libertadora se dá de forma horizontal, através do diálogo e da ação, fora de um ambiente hierárquico e opressor. Essa metodologia tem como objetivo principal o desenvolvimento da cidadania.
