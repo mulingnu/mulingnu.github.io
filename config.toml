@@ -395,7 +395,7 @@ copyright = "Este trabalho está licenciado sob a Creative Commons Attribution-S
       # Waline comment config (https://waline.js.org)
       # Waline 评论系统设置 (https://waline.js.org)
       [params.page.comment.waline]
-        enable = true
+        enable = false
         serverURL = "https://doit-docs-comment.vercel.app/"
         placeholder = "Escreva seu comentário"
         wordLimit = 0
