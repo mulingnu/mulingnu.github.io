@@ -397,12 +397,12 @@ copyright = "Este trabalho está licenciado sob a Creative Commons Attribution-S
       [params.page.comment.waline]
         enable = true
         serverURL = "https://doit-docs-comment.vercel.app/"
-        placeholder = "Just Go Go."
+        placeholder = "Escreva seu comentário"
         wordLimit = 0
         avatar = "mp"
         meta = ["nick", "mail", "link"]
         pageSize = 10
-        lang = "pt-br"
+        lang = "en"
         visitor = true
         highlight = true
         avatarCDN = ""
@@ -410,7 +410,7 @@ copyright = "Este trabalho está licenciado sob a Creative Commons Attribution-S
         emojiCDN = ""
         emojiMaps = ""
         requiredFields = []
-        anonymous = true
+        anonymous = false
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       # Facebook 评论系统设置 (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
