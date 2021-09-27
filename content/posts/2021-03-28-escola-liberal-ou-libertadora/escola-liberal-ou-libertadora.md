@@ -40,4 +40,4 @@ Com a utilização de softwares livres, os sujeitos inseridos no contexto educac
 
 **<p align="right">Ramon Mulin</p>**
 
-<p align="right">Foto de <a href="https://www.pexels.com/@august-de-richelieu?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">August de Richelieu</a> do <a href="https://www.pexels.com/photo/mother-helping-her-daughter-with-her-homework-4260482/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">Pexels</a></p>
+<p align="right">Foto de <b><a href="https://www.pexels.com/@august-de-richelieu?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">August de Richelieu</a></b> do <b><a href="https://www.pexels.com/photo/mother-helping-her-daughter-with-her-homework-4260482/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">Pexels</a></b></p>
