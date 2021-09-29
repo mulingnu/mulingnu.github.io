@@ -7,14 +7,15 @@ description: "Como ter um calendário e aplicativo de organização pessoal com 
 featuredImage: "https://images.pexels.com/photos/1425099/pexels-photo-1425099.jpeg?crop=entropy&cs=srgb&dl=pexels-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D0%B0%D1%80-%D1%86%D0%B2%D0%B5%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%9B-1425099.jpg&fit=crop&fm=jpg&h=853&w=1280"
 
 tags: ["software livre", "calendário", "android", "GNU"]
-categories: ["categoria"]
+categories: ["Dicas"]
 # series: ["getting-start"]
 
 lightgallery: true
 
 toc:
-  auto: true
+  auto: false
 ---
+
 ## Introdução
 
 Os calendários digitais tornaram-se uma ferramenta essencial na vida de professores e profissionais que precisam da união entre organização e praticidade. Muito mais práticos que os tradicionais calendários de papel, oferecem sincronia entre computadores e dispositivos mobile. Infelizmente essas ferramentas de organização cotidiana também foram dominadas pelos softwares privativos, não respeitando as <a href="https://www.gnu.org/philosophy/free-sw.pt-br.html" target=_blank>liberdades essenciais</a> do usuário. O *Google Calendar* é, possivelmente, a ferramenta mais utilizada, visto que vem instalado por padrão nos aparelhos Android  com Google e também sincroniza com computadores. Todavia, existem ferramentas livres que, ao serem configuradas, oferecem o mesmo resultado sem que tenhamos nossa privacidade invadida e dados pessoais coletados por essas empresas.
