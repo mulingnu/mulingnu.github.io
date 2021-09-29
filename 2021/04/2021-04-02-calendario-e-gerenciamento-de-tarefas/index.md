@@ -1,5 +1,6 @@
 # Software livre de gerenciamento de tarefas e calendário com sincronização entre GNU/Linux e Android
 
+
 ## Introdução
 
 Os calendários digitais tornaram-se uma ferramenta essencial na vida de professores e profissionais que precisam da união entre organização e praticidade. Muito mais práticos que os tradicionais calendários de papel, oferecem sincronia entre computadores e dispositivos mobile. Infelizmente essas ferramentas de organização cotidiana também foram dominadas pelos softwares privativos, não respeitando as <a href="https://www.gnu.org/philosophy/free-sw.pt-br.html" target=_blank>liberdades essenciais</a> do usuário. O *Google Calendar* é, possivelmente, a ferramenta mais utilizada, visto que vem instalado por padrão nos aparelhos Android  com Google e também sincroniza com computadores. Todavia, existem ferramentas livres que, ao serem configuradas, oferecem o mesmo resultado sem que tenhamos nossa privacidade invadida e dados pessoais coletados por essas empresas.
