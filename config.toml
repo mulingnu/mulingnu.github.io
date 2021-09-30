@@ -173,7 +173,7 @@ copyright = "Este trabalho está licenciado sob a Creative Commons Attribution-S
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    custom = 'Este site é livre de rastreadores!'
+    custom = "Todas as publicações são livres e estão licenciadas sob a Creative Commons Attribution-ShareAlike 4.0 International.</br></br><a href='https://creativecommons.org/licenses/by-sa/4.0/' target=_blank><img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/1280px-CC-BY-SA_icon.svg.png' width = 100x33 /></a></br></br>"
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = false
@@ -191,7 +191,7 @@ copyright = "Este trabalho está licenciado sob a Creative Commons Attribution-S
     icp = ""
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
-    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>'
+    #license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>'
 
   # Section (all posts) page config
   # Section (所有文章) 页面配置
