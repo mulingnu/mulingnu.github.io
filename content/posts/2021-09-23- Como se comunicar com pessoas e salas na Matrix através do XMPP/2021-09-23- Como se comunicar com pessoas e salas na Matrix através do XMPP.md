@@ -65,11 +65,11 @@ Basta você adicioná-la no cliente XMPP da seguinte forma:
 
 É possível se comunicar com pessoas e salas do XMPP através da Matrix com a ponte Bifröst com o seguinte padrão:
 
->Chats privados: @_xmpp_USER=40DOMAIN:matrix.org
+Chats privados:
+>@_xmpp_USER=40DOMAIN:matrix.org
 
-<br>
-
->Salas públicas: #xmpp_MUCNAME_MUCDOMAIN:matrix.org
+Salas públicas:
+>#xmpp_MUCNAME_MUCDOMAIN:matrix.org
 
 Todavia, apesar de eu ter conseguido adicionar as pessoas e salas, não consegui me comunicar. É possível que seja culpa da minha falta de intimidade com o protocolo e com o cliente, mas já vi diversas pessoas em salas XMPP utilizando contas da Matrix. Talvez alguém com um pouco mais de intimidade com o Element consiga sucesso.
 
