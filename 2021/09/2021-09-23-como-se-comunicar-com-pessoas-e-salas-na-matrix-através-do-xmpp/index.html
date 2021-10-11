@@ -1,0 +1,185 @@
+<!doctype html><html lang=pt-br>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="noodp">
+<title class=pjax-title>Como se comunicar com pessoas e salas na Matrix através do XMPP - Blog do Mulin</title><meta name=Description content="Usando ponte entre XMPP e Matrix"><meta property="og:title" content="Como se comunicar com pessoas e salas na Matrix através do XMPP">
+<meta property="og:description" content="Usando ponte entre XMPP e Matrix">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://hugodoit.pages.dev/2021/09/2021-09-23-como-se-comunicar-com-pessoas-e-salas-na-matrix-atrav%C3%A9s-do-xmpp/"><meta property="og:image" content="https://archive.org/download/logo_educadorlivre/logo.webp"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2021-09-23T21:29:01-03:00">
+<meta property="article:modified_time" content="2021-09-23T21:29:01-03:00"><meta property="og:site_name" content="Blog do Mulin - Educador Livre">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://archive.org/download/logo_educadorlivre/logo.webp">
+<meta name=twitter:title content="Como se comunicar com pessoas e salas na Matrix através do XMPP">
+<meta name=twitter:description content="Usando ponte entre XMPP e Matrix">
+<meta name=application-name content="Blog do Mulin">
+<meta name=apple-mobile-web-app-title content="Blog do Mulin">
+<meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel=icon href=https://archive.org/download/favicon_educadorlivre/favicon.webp><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://hugodoit.pages.dev/2021/09/2021-09-23-como-se-comunicar-com-pessoas-e-salas-na-matrix-atrav%C3%A9s-do-xmpp/><link rel=prev href=https://hugodoit.pages.dev/2021/09/template/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=preload as=style onload="this.onload=null,this.rel='stylesheet'" href=/lib/fontawesome-free/all.min.css>
+<noscript><link rel=stylesheet href=/lib/fontawesome-free/all.min.css></noscript><link rel=preload as=style onload="this.onload=null,this.rel='stylesheet'" href=/lib/animate/animate.min.css>
+<noscript><link rel=stylesheet href=/lib/animate/animate.min.css></noscript><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Como se comunicar com pessoas e salas na Matrix através do XMPP","inLanguage":"pt-BR","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/hugodoit.pages.dev\/2021\/09\/2021-09-23-como-se-comunicar-com-pessoas-e-salas-na-matrix-atrav%C3%A9s-do-xmpp\/"},"image":["https:\/\/archive.org\/download\/logo_educadorlivre\/logo.webp"],"genre":"posts","keywords":"ponte, matrix, xmpp","wordcount":693,"url":"https:\/\/hugodoit.pages.dev\/2021\/09\/2021-09-23-como-se-comunicar-com-pessoas-e-salas-na-matrix-atrav%C3%A9s-do-xmpp\/","datePublished":"2021-09-23T21:29:01-03:00","dateModified":"2021-09-23T21:29:01-03:00","license":"Este trabalho está licenciado sob a Creative Commons Attribution-ShareAlike 4.0 International.","publisher":{"@type":"Organization","name":"Blog do Mulin - Educador Livre","logo":"https:\/\/archive.org\/download\/logo_educadorlivre\/logo.webp"},"author":{"@type":"Person","name":"Ramon Mulin"},"description":"Usando ponte entre XMPP e Matrix"}</script></head>
+<body header-desktop=fixed header-mobile=auto><script type=text/javascript>function setTheme(a){document.body.setAttribute('theme',a)}function saveTheme(a){window.localStorage&&localStorage.setItem('theme',a)}function getMeta(b){const a=document.getElementsByTagName('meta');for(let c=0;c<a.length;c++)if(a[c].getAttribute('name')===b)return a[c];return''}if(window.localStorage&&localStorage.getItem('theme')){let a=localStorage.getItem('theme');a==='light'||a==='dark'||a==='black'?setTheme(a):window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?setTheme('dark'):setTheme('light')}else'dark'==='light'||'dark'==='dark'||'dark'==='black'?(setTheme('dark'),saveTheme('dark')):(saveTheme('auto'),window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?setTheme('dark'):setTheme('light'));let themeColorMeta=getMeta('theme-color');document.body.getAttribute('theme')!='light'&&(themeColorMeta.content='#000000')</script>
+<div id=back-to-top></div>
+<div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/ title="Blog do Mulin"><img class="lazyload logo" data-src=https://archive.org/download/logo_educadorlivre/logo.webp data-srcset="https://archive.org/download/logo_educadorlivre/logo.webp, https://archive.org/download/logo_educadorlivre/logo.webp 1.5x, https://archive.org/download/logo_educadorlivre/logo.webp 2x" data-sizes=auto alt=https://archive.org/download/logo_educadorlivre/logo.webp title=https://archive.org/download/logo_educadorlivre/logo.webp>Educador Livre</a>
+</div>
+<div class=menu>
+<div class=menu-inner><a class=menu-item href=/posts/> Postagens </a><a class=menu-item href=/tags/> Etiquetas </a><a class=menu-item href=/categories/> Categorias </a><a class=menu-item href=/about/> Sobre </a><a class=menu-item href=https://github.com/mulingnu/mulingnu.github.io title=GitHub rel="noopener noreffer" target=_blank><i class="fab fa-github fa-fw"></i> </a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
+<input type=text placeholder="Pesquisar títulos ou conteúdos ..." id=search-input-desktop>
+<a href=# onclick=return!1 class="search-button search-toggle" id=search-toggle-desktop title=Pesquisa>
+<i class="fas fa-search fa-fw"></i>
+</a>
+<a href=# onclick=return!1 class="search-button search-clear" id=search-clear-desktop title=Limpar>
+<i class="fas fa-times-circle fa-fw"></i>
+</a>
+<span class="search-button search-loading" id=search-loading-desktop>
+<i class="fas fa-spinner fa-fw fa-spin"></i>
+</span>
+</span><a href=# onclick=return!1 class="menu-item theme-select" title="Trocar tema">
+<i class="fas fa-adjust fa-fw"></i>
+<select class=color-theme-select id=theme-select-desktop title="Trocar tema"><option value=light>Light</option><option value=dark>Dark</option><option value=black>Black</option><option value=auto>Auto</option></select>
+</a></div>
+</div>
+</div>
+</header><header class=mobile id=header-mobile>
+<div class=header-container>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/ title="Blog do Mulin"><img class="lazyload logo" data-src=https://archive.org/download/logo_educadorlivre/logo.webp data-srcset="https://archive.org/download/logo_educadorlivre/logo.webp, https://archive.org/download/logo_educadorlivre/logo.webp 1.5x, https://archive.org/download/logo_educadorlivre/logo.webp 2x" data-sizes=auto alt=https://archive.org/download/logo_educadorlivre/logo.webp title=https://archive.org/download/logo_educadorlivre/logo.webp>Educador Livre</a>
+</div>
+<div class=menu-toggle id=menu-toggle-mobile>
+<span></span><span></span><span></span>
+</div>
+</div>
+<div class=menu id=menu-mobile><div class=search-wrapper>
+<div class="search mobile" id=search-mobile>
+<input type=text placeholder="Pesquisar títulos ou conteúdos ..." id=search-input-mobile>
+<a href=# onclick=return!1 class="search-button search-toggle" id=search-toggle-mobile title=Pesquisa>
+<i class="fas fa-search fa-fw"></i>
+</a>
+<a href=# onclick=return!1 class="search-button search-clear" id=search-clear-mobile title=Limpar>
+<i class="fas fa-times-circle fa-fw"></i>
+</a>
+<span class="search-button search-loading" id=search-loading-mobile>
+<i class="fas fa-spinner fa-fw fa-spin"></i>
+</span>
+</div>
+<a href=# onclick=return!1 class=search-cancel id=search-cancel-mobile>
+Cancelar
+</a>
+</div><a class=menu-item href=/posts/ title>Postagens</a><a class=menu-item href=/tags/ title>Etiquetas</a><a class=menu-item href=/categories/ title>Categorias</a><a class=menu-item href=/about/ title>Sobre</a><a class=menu-item href=https://github.com/mulingnu/mulingnu.github.io title=GitHub rel="noopener noreffer" target=_blank><i class="fab fa-github fa-fw"></i></a><a href=# onclick=return!1 class="menu-item theme-select" title="Trocar tema">
+<i class="fas fa-adjust fa-fw"></i>
+<select class=color-theme-select id=theme-select-mobile title="Trocar tema"><option value=light>Light</option><option value=dark>Dark</option><option value=black>Black</option><option value=auto>Auto</option></select>
+</a></div>
+</div>
+</header>
+<div class="search-dropdown desktop">
+<div id=search-dropdown-desktop></div>
+</div>
+<div class="search-dropdown mobile">
+<div id=search-dropdown-mobile></div>
+</div>
+<main class=main>
+<div class=container><div class=toc id=toc-auto>
+<h2 class=toc-title>Conteúdos</h2>
+<div class="toc-content always-active" id=toc-content-auto></div>
+</div><script>document.getElementsByTagName("main")[0].setAttribute("pageStyle","wide")</script><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC","true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Como se comunicar com pessoas e salas na Matrix através do XMPP</h1><div class=post-meta>
+<div class=post-meta-line>
+<span class=post-author><i class="author fas fa-user-circle fa-fw"></i><a href=https://venera.social/profile/mulin/profile title=Author target=_blank rel="noopener noreffer author" class=author>Ramon Mulin</a>
+</span>&nbsp;<span class=post-category>incluído </span>&nbsp;<span class=post-category>na categoria <a href=/categories/software-livre/><i class="far fa-folder fa-fw"></i>Software Livre</a></span></div>
+<div class=post-meta-line><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=23/09/2021>23/09/2021</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime=23/09/2021>23/09/2021</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;693 palavras&nbsp;
+<i class="far fa-clock fa-fw"></i>&nbsp;4 minutos&nbsp;</div>
+</div><div class=featured-image><img class=lazyload data-src="https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg?crop=entropy&cs=srgb&dl=pexels-august-de-richelieu-4260482.jpg&fit=crop&fm=jpg&h=854&w=1280" data-srcset="https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg?crop=entropy&cs=srgb&dl=pexels-august-de-richelieu-4260482.jpg&fit=crop&fm=jpg&h=854&w=1280, https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg?crop=entropy&cs=srgb&dl=pexels-august-de-richelieu-4260482.jpg&fit=crop&fm=jpg&h=854&w=1280 1.5x, https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg?crop=entropy&cs=srgb&dl=pexels-august-de-richelieu-4260482.jpg&fit=crop&fm=jpg&h=854&w=1280 2x" data-sizes=auto alt="https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg?crop=entropy&cs=srgb&dl=pexels-august-de-richelieu-4260482.jpg&fit=crop&fm=jpg&h=854&w=1280" title="Usando ponte entre XMPP e Matrix" height=auto width=auto></div><div class="details toc" id=toc-static kept>
+<div class="details-summary toc-title">
+<span>Conteúdos</span>
+<span><i class="details-icon fas fa-angle-right"></i></span>
+</div>
+<div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents>
+<ul>
+<li><a href=#introdução>Introdução</a></li>
+<li><a href=#como-falar-com-outra-pessoa-na-matrix>Como falar com outra pessoa na Matrix?</a></li>
+</ul>
+</nav></div>
+</div><div class=content id=content><h2 id=introdução>Introdução</h2>
+<p>Para além do problema dos mensageiros proprietários, outro crivo é a falta de padronização ou os diversos padrões (o que deixa de padronizar as coisas) entre os próprios mensageiros livres, fazendo com que as pessoas e comunidades fiquem isoladas em seus protocolos. As pontes são uma alternativa que pode minimizar esse problema. Depois de um tempo sem escrever nada para o blog, resolvi escrever sobre essa possibilidade que descobri essa semana através da indicação do amigo Farribeiro: uma ponte entre os protocolos livres de mensagens instantâneas Matrix e XMPP. A comunicação entre os dois protocolos é possível graças à ponte <a href=https://github.com/matrix-org/matrix-bifrost/wiki/Address-syntax target=_blank rel="noopener noreffer">Bifröst</a> hospedada pelo <a href=https://matrix.org/ target=_blank rel="noopener noreffer">matrix.org</a>. Aqui vou falar sobre a comunicação de XMPP para Matrix e no final do texto deixarei a documentação para que o caminho contrário seja realizado.</p>
+<p>Este breve texto será bastante pessoal e as vantagens e desvantagens que vou listar aqui são apenas opiniões e não estudos técnicos com alguma metodologia científica. Eu, particularmente, tenho certa inclinação a adotar o XMPP como meu protocolo mensageiro favorito. O protocolo é bem documentado, descentralizado e bastante democrático ao oferecer uma boa variedade de clientes para os mais diversos sistemas operacionais, que podem atender dos mais exigentes aos mais simplistas e escovadores de bits.</p>
+<p>A forma como o protocolo Matrix funciona me incomoda um pouco, pois apesar da descentralização de servidores, muita coisa passa pelo matrix.org (além de a esmagadora maioria dos usuários centrarem suas contas nessa instância) e os clientes necessariamete precisam ser autorizados pelo Element, fazendo com que a criptografia só funcione com a intervenção do servidor principal. Também acho um pouco confuso o gerenciamento dos clientes no dia-a-dia (acho difícil de usar mesmo), todavia, o que importa é que o protocolo também é livre e você pode e deve usá-lo se for do seu agrado, priorizando-o frente à ferramentas proprietárias.</p>
+<p>Por esses motivos que elenquei, entre outros, vejo XMPP como um protocolo extremamente interessante de se utilizar. Deixo aqui um texto da wiki comunitária <a href=https://libreplanet.org/wiki/Main_Page target=_blank rel="noopener noreffer">Libre Planet BR</a> com uma introdução ao XMPP: <a href=https://libreplanet.org/wiki/XMPP.pt target=_blank rel="noopener noreffer"></a></p>
+<p>A ponte Bifröst infelizmente não permite mensagens criptografadas entre os protocolos, justamente por usarem padrões diferentes. Portanto, as comunicações entre pessoas serão sem criptografia e em salas criptografadas será possível apenas enviar mensagens, mas não recebê-las. Todavia, a maioria das salas são descriptografadas e minha experiência tem sido bastante positiva.</p>
+<p>Outro ponto negativo é o fato de não ter histórico de mensagens que são enviadas enquanto seu cliente XMPP estiver fechado. A forma como amenizo isso é mantendo o cliente Conversations no celular, pois o software fica conectado enquanto o smartphone está ligado, possibilitando acompanhar as mensagens por lá.</p>
+<p>Mesmo com esses fatores, é bastante interessante o fato de poder manter o uso de apenas um protocolo de mensagens e conseguir estabelecer uma comunicação viável com todos que preferem usar a Matrix. Portanto, sem mais delongas, mãos na massa!</p>
+<h2 id=como-falar-com-outra-pessoa-na-matrix>Como falar com outra pessoa na Matrix?</h2>
+<p>No seu cliente XMPP favorito, adicione a pessoa com quem você quer se comunicar na Matrix utilizando o seguinte padrão:</p>
+<blockquote>
+<p>nomedousuário_domíniodoservidor@matrix.org</p>
+</blockquote>
+<p>Por exemplo, se o usuário na matrix for:</p>
+<blockquote>
+<p>@zezinho:matrix.org</p>
+</blockquote>
+<p>Basta você adicioná-lo no cliente XMPP da seguinte forma:</p>
+<blockquote>
+<p><a href=mailto:zezinho_matrix.org@matrix.org rel>zezinho_matrix.org@matrix.org</a></p>
+</blockquote>
+<h1 id=como-entrar-em-salas-públicas-na-matrix>Como entrar em salas públicas na Matrix?</h1>
+<p>No seu cliente XMPP favorito, adicione a sala da Matrix que você deseja entrar seguindo o seguinte padrão:</p>
+<blockquote>
+<p>#nomedasala#domíniodoservidor@matrix.org</p>
+</blockquote>
+<p>Por exemplo, se você desejar entrar na sala do Curso GNU com Debian do Professor Kretcheu, que tem a seguinte sala na Matrix:</p>
+<blockquote>
+<p>#cursognu:matrix.org</p>
+</blockquote>
+<p>Basta você adicioná-la no cliente XMPP da seguinte forma:</p>
+<blockquote>
+<p>#cursognu#matrix.org@matrix.org</p>
+</blockquote>
+<h1 id=como-fazer-o-caminho-contrário-matrix--xmpp>Como fazer o caminho contrário (Matrix > XMPP)?</h1>
+<p>É possível se comunicar com pessoas e salas do XMPP através da Matrix com a ponte Bifröst com o seguinte padrão:</p>
+<blockquote>
+<p>Chats privados: @_xmpp_USER=40DOMAIN:matrix.org
+Salas públicas: #xmpp_MUCNAME_MUCDOMAIN:matrix.org</p>
+</blockquote>
+<p>Todavia, apesar de eu ter conseguido adicionar as pessoas e salas, não consegui me comunicar. É possível que seja culpa da minha falta de intimidade com o protocolo e com o cliente, mas já vi diversas pessoas em salas XMPP utilizando contas da Matrix. Talvez alguém com um pouco mais de intimidade com o Element consiga sucesso.</p>
+<p>Isso é tudo por hoje! Espero que eu tenha te ajudado a ser um pouco mais livre!</p>
+<p>Abraços &lt;3</p>
+</div><div class=post-footer id=post-footer>
+<div class=post-info>
+<div class=post-info-line>
+<div class=post-info-mod>
+<span>Atualizado em 23/09/2021</span>
+</div>
+<div class=post-info-license></div>
+</div>
+<div class=post-info-line>
+<div class=post-info-md><span>
+<a class=link-to-markdown href=/2021/09/2021-09-23-como-se-comunicar-com-pessoas-e-salas-na-matrix-atrav%C3%A9s-do-xmpp/index.md target=_blank rel="noopener noreferrer">Leia em Markdown</a>
+</span></div>
+<div class=post-info-share>
+<span></span>
+</div>
+</div>
+</div>
+<div class=post-info-more>
+<section class=post-tags><i class="fas fa-tags fa-fw"></i>&nbsp;<a href=/tags/ponte/>ponte</a>,&nbsp;<a href=/tags/matrix/>matrix</a>,&nbsp;<a href=/tags/xmpp/>xmpp</a></section>
+<section>
+<span><a href=# onclick=window.history.back()>Voltar</a></span>&nbsp;|&nbsp;<span><a href=/>Home</a></span>
+</section>
+</div>
+<div class=post-nav><a href=/2021/09/template/ class=prev rel=prev title="Como se comunicar com pessoas e salas na Matrix através do XMPP"><i class="fas fa-angle-left fa-fw"></i>Como se comunicar com pessoas e salas na Matrix através do XMPP</a></div>
+</div>
+<div id=comments></div></article></div>
+</main><footer class=footer>
+<div class=footer-container><div class=footer-line>Todas as publicações são livres e estão licenciadas sob a Creative Commons Attribution-ShareAlike 4.0 International.</br></br><a href=https://creativecommons.org/licenses/by-sa/4.0/ target=_blank><img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/1280px-CC-BY-SA_icon.svg.png width=100x33></a></br></br></div><div class=footer-line><i class="far fa-copyright fa-fw"></i><span itemprop=copyrightYear>2021</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=https://venera.social/profile/mulin/profile target=_blank rel="noopener noreferrer">Ramon Mulin</a></span></div>
+</div><script>'serviceWorker'in navigator&&(navigator.serviceWorker.register('/sw.min.js',{scope:'/'}).then(function(a){}),navigator.serviceWorker.ready.then(function(a){}))</script></footer></div>
+<div id=fixed-buttons><a href=#back-to-top id=back-to-top-button class=fixed-button title="Voltar ao topo">
+<i class="fas fa-arrow-up fa-fw"></i>
+</a><a href=# id=view-comments class=fixed-button title="Ver comentários">
+<i class="fas fa-comment fa-fw"></i>
+</a>
+</div><div class=assets><script type=text/javascript src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.fill%2CArray.prototype.find%2CArray.from%2CIntersectionObserver%2CMath.sign%2CObject.assign%2CPromise%2CObject.entries%2Chtml5shiv%2CObject.values%2Cfetch%2CElement.prototype.after"></script><script type=text/javascript src=/lib/object-fit-images/ofi.min.js></script><script type=text/javascript src=/lib/autocomplete/autocomplete.min.js></script><script type=text/javascript src=/lib/lunr/lunr.min.js></script><script type=text/javascript src=/lib/lunr/lunr.stemmer.support.min.js></script><script type=text/javascript src=/lib/lunr/lunr.pt.min.js></script><script type=text/javascript src=/lib/lazysizes/lazysizes.min.js></script><script type=text/javascript src=/lib/topbar/topbar.min.js></script><script type=text/javascript src=/lib/pjax/pjax.min.js></script><script type=text/javascript src=/js/theme.min.js></script></div>
+<div class=pjax-assets><script type=text/javascript src=/lib/clipboard/clipboard.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"Copiar para a área de transferência",maxShownLines:10},comment:{},search:{highlightTag:"em",lunrIndexURL:"/index.json",lunrLanguageCode:"pt",maxResultLength:10,noResultsFound:"Nenhum resultado encontrado",snippetLength:30,type:"lunr"}}</script></div>
+</body>
+</html>
