@@ -36,12 +36,13 @@
 </blockquote>
 <h2 id="como-fazer-o-caminho-contrário-matrix--xmpp">Como fazer o caminho contrário (Matrix &gt; XMPP)?</h2>
 <p>É possível se comunicar com pessoas e salas do XMPP através da Matrix com a ponte Bifröst com o seguinte padrão:</p>
+<p>Chats privados:</p>
 <blockquote>
-<p>Chats privados: @_xmpp_USER=40DOMAIN:matrix.org</p>
+<p>@_xmpp_USER=40DOMAIN:matrix.org</p>
 </blockquote>
-<br>
+<p>Salas públicas:</p>
 <blockquote>
-<p>Salas públicas: #xmpp_MUCNAME_MUCDOMAIN:matrix.org</p>
+<p>#xmpp_MUCNAME_MUCDOMAIN:matrix.org</p>
 </blockquote>
 <p>Todavia, apesar de eu ter conseguido adicionar as pessoas e salas, não consegui me comunicar. É possível que seja culpa da minha falta de intimidade com o protocolo e com o cliente, mas já vi diversas pessoas em salas XMPP utilizando contas da Matrix. Talvez alguém com um pouco mais de intimidade com o Element consiga sucesso.</p>
 <p>Isso é tudo por hoje! Espero que eu tenha te ajudado a ser um pouco mais livre!</p>
