@@ -5,7 +5,7 @@ date: 2021-09-23T21:29:01-03:00
 draft: false
 # authors: ["Dillon", "PCloud"]
 description: "Usando ponte entre XMPP e Matrix"
-featuredImage: "https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg?crop=entropy&cs=srgb&dl=pexels-august-de-richelieu-4260482.jpg&fit=crop&fm=jpg&h=854&w=1280"
+featuredImage: "https://archive.org/download/xmpp-matrix-bridge/capa-850x478.webp"
 
 tags: ["ponte", "matrix", "xmpp"]
 categories: ["Software Livre"]
@@ -25,7 +25,7 @@ Este breve texto será bastante pessoal e as vantagens e desvantagens que vou li
 
 A forma como o protocolo Matrix funciona me incomoda um pouco, pois apesar da descentralização de servidores, muita coisa passa pelo matrix.org (além de a esmagadora maioria dos usuários centrarem suas contas nessa instância) e os clientes necessariamete precisam ser autorizados pelo Element, fazendo com que a criptografia só funcione com a intervenção do servidor principal. Também acho um pouco confuso o gerenciamento dos clientes no dia-a-dia (acho difícil de usar mesmo), todavia, o que importa é que o protocolo também é livre e você pode e deve usá-lo se for do seu agrado, priorizando-o frente à ferramentas proprietárias.
 
-Por esses motivos que elenquei, entre outros, vejo XMPP como um protocolo extremamente interessante de se utilizar. Deixo aqui um texto da wiki comunitária [Libre Planet BR](https://libreplanet.org/wiki/Main_Page) com uma introdução ao XMPP: [](https://libreplanet.org/wiki/XMPP.pt)
+Por esses motivos que elenquei, entre outros, vejo XMPP como um protocolo extremamente interessante de se utilizar. Deixo aqui um texto da wiki comunitária [Libre Planet BR](https://libreplanet.org/wiki/Main_Page) com uma introdução ao XMPP: [https://libreplanet.org/wiki/XMPP.pt](https://libreplanet.org/wiki/XMPP.pt)
 
 A ponte Bifröst infelizmente não permite mensagens criptografadas entre os protocolos, justamente por usarem padrões diferentes. Portanto, as comunicações entre pessoas serão sem criptografia e em salas criptografadas será possível apenas enviar mensagens, mas não recebê-las. Todavia, a maioria das salas são descriptografadas e minha experiência tem sido bastante positiva.
 
@@ -47,7 +47,7 @@ Basta você adicioná-lo no cliente XMPP da seguinte forma:
 
 > zezinho_matrix.org@matrix.org
 
-# Como entrar em salas públicas na Matrix?
+## Como entrar em salas públicas na Matrix?
 
 No seu cliente XMPP favorito, adicione a sala da Matrix que você deseja entrar seguindo o seguinte padrão:
 
@@ -61,12 +61,15 @@ Basta você adicioná-la no cliente XMPP da seguinte forma:
 
 > #cursognu#matrix.org@matrix.org
 
-# Como fazer o caminho contrário (Matrix > XMPP)?
+## Como fazer o caminho contrário (Matrix > XMPP)?
 
 É possível se comunicar com pessoas e salas do XMPP através da Matrix com a ponte Bifröst com o seguinte padrão:
 
-> Chats privados: @_xmpp_USER=40DOMAIN:matrix.org
-> Salas públicas: #xmpp_MUCNAME_MUCDOMAIN:matrix.org
+>Chats privados: @_xmpp_USER=40DOMAIN:matrix.org
+
+<br>
+
+>Salas públicas: #xmpp_MUCNAME_MUCDOMAIN:matrix.org
 
 Todavia, apesar de eu ter conseguido adicionar as pessoas e salas, não consegui me comunicar. É possível que seja culpa da minha falta de intimidade com o protocolo e com o cliente, mas já vi diversas pessoas em salas XMPP utilizando contas da Matrix. Talvez alguém com um pouco mais de intimidade com o Element consiga sucesso.
 
